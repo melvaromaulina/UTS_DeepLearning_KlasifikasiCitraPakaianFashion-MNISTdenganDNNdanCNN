@@ -1,0 +1,65 @@
+{
+  "model_final": "CNN_C_BN_Dropout",
+  "seed_run_terpilih": 44,
+  "ukuran_data": {
+    "latih_awal_keras": 60000,
+    "dibuang_saat_pembersihan": 0,
+    "latih_setelah_pembersihan": 60000,
+    "latih": 54000,
+    "validasi": 6000,
+    "uji": 10000
+  },
+  "parameter_model_final": 436650,
+  "val_acc_run_terpilih": 0.947,
+  "test_acc_run_terpilih": 0.9375,
+  "test_macro_f1_run_terpilih": 0.9372,
+  "test_acc_ci95_bootstrap": [
+    0.9325,
+    0.942
+  ],
+  "antar_seed_model_final": {
+    "n_run": 3,
+    "test_acc_mean": 0.937,
+    "test_acc_std": 0.0024
+  },
+  "mlp_baseline": {
+    "test_acc_mean": 0.893,
+    "test_acc_std": 0.0045
+  },
+  "mobilenetv2_tl_test_acc": 0.9046,
+  "mcnemar_final_vs_mlp": {
+    "mlp_salah_final_benar": 656,
+    "mlp_benar_final_salah": 172,
+    "p_value": 2.7695874320218057e-67
+  },
+  "tflite_dipilih": {
+    "varian": "dynamic",
+    "ukuran_KB": 442.0,
+    "test_acc": 0.937,
+    "latensi_ms_per_citra": 0.873
+  },
+  "ukuran_keras_KB": 1806.3,
+  "gradcam_masking": {
+    "Tanpa masking": 0.944,
+    "Mask 20% piksel terpenting (Grad-CAM)": 0.707,
+    "Mask 20% piksel acak": 0.8
+  },
+  "kelas_tersulit": "Shirt",
+  "kesalahan_terbanyak": [
+    {
+      "kelas_sebenarnya": "Shirt",
+      "diprediksi_sebagai": "T-shirt/top",
+      "jumlah": 103
+    },
+    {
+      "kelas_sebenarnya": "Shirt",
+      "diprediksi_sebagai": "Coat",
+      "jumlah": 53
+    },
+    {
+      "kelas_sebenarnya": "T-shirt/top",
+      "diprediksi_sebagai": "Shirt",
+      "jumlah": 53
+    }
+  ]
+}
