@@ -1,0 +1,27 @@
+{
+  "model_name": "CNN_C_BN_Dropout",
+  "seed_run_terpilih": 44,
+  "kriteria_pemilihan": "rata-rata akurasi validasi tertinggi pada ablasi inti (varian A-D)",
+  "input_shape": [
+    28,
+    28,
+    1
+  ],
+  "input_range": "0-255 (normalisasi di dalam model)",
+  "class_names": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ],
+  "test_accuracy": 0.9375,
+  "test_macro_f1": 0.9372,
+  "gradcam_layer": "activation_59",
+  "tflite_variant": "dynamic"
+}
