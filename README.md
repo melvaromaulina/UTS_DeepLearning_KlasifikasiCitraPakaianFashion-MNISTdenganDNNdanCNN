@@ -2,11 +2,12 @@
 
 Proyek Deep Learning kelompok: membandingkan **MLP (DNN) sebagai baseline**, **CNN buatan sendiri**, dan **transfer learning MobileNetV2** pada dataset Fashion-MNIST, lalu men-deploy model terbaik sebagai aplikasi web.
 
-- **Aplikasi (demo):** [ISI LINK APLIKASI STREAMLIT]
-- **Video demo + tahapan deployment:** [ISI LINK VIDEO]
-- **Laporan teknis:** [ISI NAMA FILE / LINK LAPORAN]
 
-**Kelompok:** [ISI NAMA KELOMPOK] · Anggota: [ISI NAMA DAN NIM ANGGOTA]
+**Kelompok:** Aurora · Anggota: 1.	MELVA ROMAULINA BR SITORUS	(231110028)
+2.	KARIN KENISA BR SITEPU	(231111550)
+3.	HOTNIDA JUNITA PASARIBU	(221111292)
+4.	MIRAWATI HUTASOIT 	(231110639)
+
 
 ## Ringkasan hasil
 
